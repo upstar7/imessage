@@ -1,0 +1,17 @@
+{
+  "name": "webslibes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "hello word",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "description": ""
+}

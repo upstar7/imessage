@@ -1,0 +1,21 @@
+{
+  "name": "webslibes",
+  "description": "webslibes 资源包",
+  "main": "index.js",
+  "authors": [
+    "webslibes"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "webslibes"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower-asset",
+    "test",
+    "tests"
+  ]
+}
