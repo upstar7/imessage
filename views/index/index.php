@@ -433,15 +433,15 @@ new Vue({
             $("#my_loc").html(data.loc)
         }
      )
-    setTimeout(() => {
-      jQuery.get('/wp-json/imessage/api')
-        .fail((xhr) => {
-          //console.log(xhr)
-          if (xhr.status !== 200) {
-            alert("你的插件为通过授权部分功能无法使用" + "\\n" + "请联系@phpsms123");
-          }
-        })
-    }, 3000);
+    // setTimeout(() => {
+    //   jQuery.get('/wp-json/imessage/api')
+    //     .fail((xhr) => {
+    //       console.log(xhr)
+    //       if (xhr.status !== 200) {
+    //         alert("你的插件为通过授权部分功能无法使用" + "\\n" + "请联系@phpsms123");
+    //       }
+    //     })
+    // }, 3000);
     
     let arr = [...new Set(this.ips)]
     this.delayedExecution(arr, 0);

@@ -79,50 +79,50 @@ return [
         ],
     ],
     'settings' => [
-        "auth" => [
-            'option_group' => 'imessage_group',
-            'page' => 'imessage_group_auth',
-            'section_id' => 'auth',
-            "section_description" => '通过授权开启功能',
-            'fields' => [
-                [
-                    'id' => 'code',
-                    "title" => "code",
-                    'args' => [
-                        "tag" => "text",
-                        "defaultValue" => "秘文",
-                        "description" => "",
-                        'options' => [
-                            "class" => "regular-text code"
-                        ]
-                    ],
-                ],
-                [
-                    'id' => 'PrivateKey',
-                    "title" => "SecretKey",
-                    'args' => [
-                        "tag" => "text",
-                        "defaultValue" => "",
-                        "description" => "私钥",
-                        'options' => [
-                            "class" => "regular-text code"
-                        ]
-                    ],
-                ],
-                [
-                    'id' => 'PublicKey',
-                    "title" => "PublicKey",
-                    'args' => [
-                        "tag" => "text",
-                        "defaultValue" => "",
-                        "description" => "公钥",
-                        'options' => [
-                            "class" => "regular-text code"
-                        ]
-                    ],
-                ],
-            ]
-        ],
+        // "auth" => [
+        //     'option_group' => 'imessage_group',
+        //     'page' => 'imessage_group_auth',
+        //     'section_id' => 'auth',
+        //     "section_description" => '通过授权开启功能',
+        //     'fields' => [
+        //         [
+        //             'id' => 'code',
+        //             "title" => "code",
+        //             'args' => [
+        //                 "tag" => "text",
+        //                 "defaultValue" => "秘文",
+        //                 "description" => "",
+        //                 'options' => [
+        //                     "class" => "regular-text code"
+        //                 ]
+        //             ],
+        //         ],
+        //         [
+        //             'id' => 'PrivateKey',
+        //             "title" => "SecretKey",
+        //             'args' => [
+        //                 "tag" => "text",
+        //                 "defaultValue" => "",
+        //                 "description" => "私钥",
+        //                 'options' => [
+        //                     "class" => "regular-text code"
+        //                 ]
+        //             ],
+        //         ],
+        //         [
+        //             'id' => 'PublicKey',
+        //             "title" => "PublicKey",
+        //             'args' => [
+        //                 "tag" => "text",
+        //                 "defaultValue" => "",
+        //                 "description" => "公钥",
+        //                 'options' => [
+        //                     "class" => "regular-text code"
+        //                 ]
+        //             ],
+        //         ],
+        //     ]
+        // ],
         "okx" => [
             'option_group' => 'imessage_group',
             'page' => 'imessage_group_okx',
