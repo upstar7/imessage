@@ -262,7 +262,7 @@ new Vue({
                 },
                 dataType: 'json',
                 success: (res) => {
-                    console.log(res.data)
+                    console.log('sdfsdfsdfsdf', res.data)
                    if(res.code ==1){
                        this.rules=res.data
                    }

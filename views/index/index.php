@@ -354,6 +354,7 @@ new Vue({
       alert('复制成功')
     },
     init() {
+      console.log('tuytuytuytuytuytuytu');
       jQuery.ajax({
         url: ajaxurl + "?action=index",
         type: 'POST',
