@@ -286,7 +286,7 @@ class IndexController extends Controller
                             'resetting_number'=>0,
                             'message'=>'',
                             'route'=>$request->post('route'),
-                            'time'=>0,
+                            'time'=>time(),
                         ]
                     ] ;
                     $tokens = ArrayHelper::merge($tokens,$data);
